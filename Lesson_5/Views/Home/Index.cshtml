@@ -1,29 +1,14 @@
-﻿@{
+﻿@model List<ProductModel>;
+
+@{
     ViewData["Title"] = "Home Page";
+    ViewData["Home"] = "Layout for Table"; 
 }
 
 <div class="text-center">
     <h1 class="display-4"><b>Table Lesson 5</b></h1>
     <table style="margin: auto; border-collapse: collapse;">
-        @{
-            Random randomName = new Random();
-            var name = new List<string> { "Книга", "Полнометражный фильм", "Сериал", "Комикс", "Короткометражный фильм", "Мультфильм", "Журнал" };
-
-            Random randomDescription = new Random();
-            var description = new List<string> { "Ведьмак", "Игра престолов", "Волшебник Земноморья", "Стрелок", "Лабиринты Ехо", "Меч короля Артура", "Эдвар руки-ножницы", 
-                "Варкрафт", "Звездная пыль", "Другой мир", "Морбиус", "Всё везде и сразу", "Чёрный Адам", "Страна снов", "Фантастические твари", "Три тысячи лет желаний",
-                "Тролль", "Пиноккио", "Сердце Пармы", "Этерна"
-            };
-            
-            Random randomPriceForPiece = new Random();
-            var priceForPiece = new List<double> { 1200, 500, 900, 450, 1160, 460, 444, 512, 777, 994, 1031, 846, 117, 462, 654, 951, 753, 357, 159, 852 };
-
-            Random randomQuantity = new Random();
-            var quantity = new List<int> { 51, 92, 4, 6, 74, 88, 64, 888, 210, 99, 61, 75, 111, 642, 132, 845, 67, 52, 77, 100 };
-
-            var sign = "✎⌫";
-        }
-        <tr>
+       <tr>
             <th style="border: 1px solid black;">
                 <b>Id</b>
             </th>
@@ -44,16 +29,21 @@
             </th>
         </tr>
 
-        @for (int id = 1; id <= 20; id++)
+        @for (int i = 0; i < Model.Count; i++)
         {
             <tr style="border: 1px solid black;">
-                <td style="border: 1px solid grey;">@id</td>
-                <td style="border: 1px solid grey;">@name[randomName.Next(name.Count)]</td>
-                <td style="border: 1px solid grey;">@description[randomDescription.Next(description.Count)]</td>
-                <td style="border: 1px solid grey;">@priceForPiece[randomPriceForPiece.Next(description.Count)]</td>
-                <td style="border: 1px solid grey;">@quantity[randomQuantity.Next(description.Count)]</td>
-                <td style="border: 1px solid grey;">@sign</td>
+                <td style="border: 1px solid grey;">@Model[i].Id</td>
+                <td style="border: 1px solid grey;">@Model[i].Name</td>
+                <td style="border: 1px solid grey;">@Model[i].Description</td>
+                <td style="border: 1px solid grey;">@Model[i].PriceForPiece</td>
+                <td style="border: 1px solid grey;">@Model[i].Quantity</td>
+                <td style="border: 1px solid grey;">@Model[i].Sign</td>
             </tr>
         }
     </table>
 </div>
+
+@section Footer
+{
+    <div> &copy; Наш копирайтинг</div>
+}

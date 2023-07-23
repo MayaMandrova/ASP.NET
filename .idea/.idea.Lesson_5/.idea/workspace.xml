@@ -7,135 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4b96280-4596-4c26-bbcf-61e862c0ab06" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ASP/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ASP/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ASP/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lesson_5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lesson_5/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ASP.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Lesson_5.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Models/ErrorViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Views/Home/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Views/Home/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Views/Shared/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Views/Shared/_Layout.cshtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/Lesson_5.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/Lesson_5.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/Lesson_5.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/Lesson_5.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/Lesson_5.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/Lesson_5.staticwebassets.runtime.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/ref/Lesson_5.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/refint/Lesson_5.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/scopedcss/bundle/Lesson_5.styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/scopedcss/projectbundle/Lesson_5.bundle.scp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/staticwebassets/msbuild.Lesson_5.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/staticwebassets/msbuild.build.Lesson_5.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Lesson_5.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Lesson_5.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Lesson_5.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Lesson_5.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/Lesson_5.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lesson_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lesson_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/Lesson_5.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/Lesson_5.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/Lesson_5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/Lesson_5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/Lesson_5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/bin/Debug/net7.0/Lesson_5.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/Lesson_5.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/ref/Lesson_5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/ref/Lesson_5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/refint/Lesson_5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net7.0/refint/Lesson_5.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6879c9ed20391a5ccfea363be5964fbcfe4f1dfde9558aa84b36df6b6ec92c6/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6bfb5caa34a165fe407ffb9d2b7285ffa682b2e3eb1f4f18fb6a945a576c4/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fb643aeff3db18a0c8fc3f6dec4c87a694229c8c871b5f71d8a852177e473d7f/Random.Xoshiro256StarStarImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lesson_5/Views/Home/Table.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -218,8 +114,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689763355032</updated>
-      <workItem from="1689763356295" duration="6394000" />
+      <workItem from="1689763356295" duration="30803000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1689957544693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689957544693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +131,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
