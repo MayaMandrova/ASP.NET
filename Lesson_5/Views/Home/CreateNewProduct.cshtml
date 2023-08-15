@@ -1,0 +1,83 @@
+@model ListProductsModel;
+
+@{
+    ViewData["Home"] = "Lesson 7";
+    Layout = "_Layout";
+    var products = Model.Products;
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <h1 class="display-4">
+        <b>Table Lesson 7</b>
+    </h1>
+    <table style="margin: auto; border-collapse: collapse;">
+        <tr>
+            <th style="border: 1px solid black;">
+                <b>Id</b>
+            </th>
+            <th style="border: 1px solid black;">
+                <b>Название</b>
+            </th>
+            <th style="border: 1px solid black;">
+                <b>Описание</b>
+            </th>
+            <th style="border: 1px solid black;">
+                <b>Цена за штуку</b>
+            </th>
+            <th style="border: 1px solid black;">
+                <b>Количество</b>
+            </th>
+            <th style="border: 1px solid black;">
+                <b>Действия</b>
+            </th>
+        </tr>
+
+        @for (int i = 0; i < products.Count; i++)
+        {
+            <tr style="border: 1px solid black;">
+                <td style="border: 1px solid grey;">@products[i].Id</td>
+                <td style="border: 1px solid grey;">@products[i].Name</td>
+                <td style="border: 1px solid grey;">@products[i].Description</td>
+                <td style="border: 1px solid grey;">@products[i].PriceForPiece</td>
+                <td style="border: 1px solid grey;">@products[i].Quantity</td>
+                <td style="border: 1px solid grey;">
+                    <form action="@Url.Action("GetProduct", "Home")" method="Get">
+                        <button type="submit" name="id" value="@products[i].Id">✎</button><br/>
+                    </form>
+                    <form action="@Url.Action("DeleteProduct", "Home")" method="Post">
+                    <button type="submit" name="id" value="@products[i].Id">⌫</button><br/>
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <h4>Добавить новый продукт:</h4>
+    <form action="@Url.Action("CreateNewProductFromUser", "Home")" method="Post">
+        <input type="hidden" name="id" value="@(products.Last().Id)"/><br/>
+        Название:<br/>
+        <input type="text" placeholder="Введите название" name="name"/><br/>
+        Описание:<br/>
+        <input type="text" placeholder="Введите описание" name="description"/><br/>
+        Цена за штуку:<br/>
+        <input type="number" step="0.01" placeholder="Введите цену за штуку" name="priceForPiece"/><br/>
+        Количество:<br/>
+        <input type="number" placeholder="Введите количество" name="quantity"/><br/>
+        <br/>
+        <input type="submit" value="Create"/>
+    </form>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+</div>
+
+<p>Новая вкладка для проверки дефолтного копирайтинга</p>
