@@ -10,4 +10,8 @@
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.9" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Views\Home\EditAndDeleteProduct.cs" />
+    </ItemGroup>
+
 </Project>
